@@ -1,0 +1,265 @@
+/* Start Main Rules*/
+body
+{
+	height: 2900px
+}
+.container
+{
+	width:1170px;
+	margin:auto
+}
+
+/* End Main Rules*/
+/* Start Header*/
+.header .slider
+{
+	background-image: url('../images/ball.jpg');
+	-webkit-background-size: cover;/*Css3*/
+	-moz-background-size: cover;/*Css3*/
+	-o-background-size: cover;/*Css3*/
+	background-size: cover;/*Css3*/
+	background-color: #eee;
+	height: 900px
+}
+.header .slider .intro
+{
+	padding-top: 300px;
+	padding-right: 80px;
+	text-align: center;
+	color:#fff
+}
+.header .slider p
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif
+}
+.header .slider p span
+{
+	color:#f48d5a
+}
+.header .slider button
+{
+	background-color:#f48d5a;
+	color:#fff;
+	border: 0;
+	padding: 15px 40px 15px 40px;
+    border-radius: 4px;
+	cursor:pointer
+}
+.header .navbar
+{
+	background-color: #0f151a;
+	color: #fff;
+	overflow: hidden
+}
+.header .navbar h2
+{
+	float: left
+}
+.header .navbar h2 span
+{
+	color: #d8a52f;
+	font-family:cursive
+}
+.header .navbar ul
+{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right
+}
+.header .navbar ul li
+{
+	float:left;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+	cursor: pointer
+}
+.header .navbar ul li a
+{
+	color:#fff;
+	text-decoration: none
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover
+{
+	color:#f48d5a
+}
+/* End Header*/
+/* Start Zooks*/
+.took
+{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: #fff
+}
+.took h1
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif
+}
+.took h2
+{
+	font-weight: bold;
+	font-family: sans-serif
+}
+.took .template
+{
+	overflow: hidden
+}
+.took .template div
+{
+	float: left;
+	width:33.333333%;
+	margin-bottom: 10px
+}
+.took .template div img
+{
+	width:50%;
+    margin: 10px;
+	padding: 3px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	box-shadow: 10px 10px 12px #ccc
+}
+.took .template div button
+{
+	background: none;
+	border:2px solid #f48d5a;
+	color:#f48d5a;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold
+}
+.took .template div button:hover
+{
+	color:#f48d5a
+}
+/* End Zooks*/
+/* Start Features*/
+.features
+{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background-color:#fafafa  
+}
+.features .feat
+{
+	text-align: center
+}
+.features .feat h1
+{
+	color:#333333;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-transform: uppercase
+}
+.features .feat h2
+{
+	font-family: sans-serif;
+	color:#434343
+}
+.features .clean
+{
+	overflow: hidden
+}
+.features .clean div
+{
+	float: left;
+	width:33.333333%;
+	margin-bottom: 10px
+}
+.features .clean div img
+{
+	float: left;
+	width: 40px;
+	padding: 20px
+}
+.features .clean div h3
+{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color:#333333;
+	margin-right: 20px;
+	padding: 10px
+}
+.features .clean div p
+{
+	color:#333;
+	line-height: 1.6;
+	text-align: justify;
+	margin-right: 40px;
+	padding: 10px;
+	font-family: sans-serif
+}
+/* End Features*/
+/* Start Purchase*/
+.purchase 
+{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background-color: #161209
+}
+.purchase .amazing
+{
+ text-align:center;
+	color: #fff
+}
+.purchase .image 
+{
+	overflow: hidden
+}
+.purchase .image img
+{
+	float: left;
+	width: 500px
+}
+.purchase .amazing p
+{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif
+}
+.purchase .amazing button
+{
+	background-color: #f48d5a;
+	color: #fff;
+	border: none;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 12px;
+	padding-top: 15px;
+	cursor: pointer
+}
+/* End Purchase*/
+/* Start Copy*/
+.copy 
+{
+	background-color: #0f151a;
+	text-align: center;
+	padding: 20px 0;
+	overflow: hidden
+}
+.copy .right p
+{
+	color:#fff;
+	font-size: 20px
+}
+.copy .right span
+{
+	color:#e55c22;
+	text-transform: uppercase
+}
+
+/* End Copy*/
