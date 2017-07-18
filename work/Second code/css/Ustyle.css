@@ -1,0 +1,418 @@
+/* Start Main Rules */
+body
+{
+	height: 3059px
+}
+.container
+{
+	width:1200px;
+	margin: auto
+}
+/* End Main Rules */
+/* Start Header 1*/
+.navbar1
+{
+	color:#fff;
+	overflow: hidden;
+	background-color: #55415f
+}
+.navbar1 ul
+{
+	list-style: none;
+	overflow: hidden;
+	float: right
+}
+.navbar1 ul li
+{
+	display: inline;
+	padding: 10px;
+	font-size: 17px;
+	font-family: monospace
+}
+.navbar1 ul li.active
+{
+	color:#56f5d1;
+	cursor: pointer
+}
+.navbar1 ul li a:hover
+{
+	color:#56f5d1;
+	cursor: pointer
+}
+/* End Header 1*/
+/* Start Header 2*/
+.navbar2
+{
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.navbar2 .one
+{
+	float: left;
+	padding-top: 4px;
+	padding-bottom: 4px
+}
+.navbar2 .one h2
+{
+	font-family: Arial;
+	font-size: 30px;
+	margin-bottom: 0
+}
+.navbar2 .one p
+{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 4px
+}
+.navbar2 .two
+{
+	float: right;
+	padding-top: 17px;
+	padding-bottom: 17px
+}
+.navbar2 ul
+{
+	list-style: none
+}
+.navbar2 ul li
+{
+	display: inline;
+	padding: 10px;
+	color:#000000;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: monospace
+}
+.navbar2 ul li.active
+{
+	color:#55415f;
+	cursor: pointer
+}
+.navbar2 ul li a:hover
+{
+	color:#55415f;
+	cursor: pointer
+}
+/* End Header 2*/
+/* Start Catchy Title*/
+.title
+{
+	background-color: #ebebeb;
+	overflow: hidden;
+	padding: 30px
+}
+.title .image
+{
+	float:left;
+	width: 60%
+}
+.title .image img
+{
+	width: 50%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border: 17px solid #333;
+	box-shadow: 10px 10px 12px #717171
+}
+.title .catchy
+{
+   float:right;
+	width: 40%
+}
+.title .catchy h1
+{
+	font-family: Arial;
+	font-size: 40px;
+}
+.title .catchy p
+{
+	line-height: 1.6;
+	text-align: justify;
+	color:#535353;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 17px
+}
+.title .catchy button
+{
+	background-color: #55415f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 8px;
+	color:#fff;
+	font-weight: bold;
+	cursor:pointer
+}
+/* End Catchy Title*/
+/* Start Testemonials*/
+.testemonials
+{
+	margin-top: 30px
+}
+.testemonials .images 
+{
+	width:33.333333%;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px
+}
+.testemonials .images img
+{
+	border: 5px solid #460965;
+	box-shadow: 10px 10px 10px #717171;
+	margin-bottom: 20px;
+	width:300px;
+	height: 200px
+}
+.testemonials .images h2
+{
+	text-align:center;
+	margin-right: 80px;
+	font-weight: bold;
+	font-family:monospace;
+	font-size: 25px;
+	color:#55415f
+}
+.testemonials .images hr
+{
+	width:80%;
+	margin-right: 80px;
+	text-align: center;
+	background-color:#d7d7d7;
+	height: 2px;
+	border:1px solid #d7d7d7
+}
+.testemonials .images p
+{
+	text-align:justify;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 17px;
+	color: #807d77;
+	margin-right: 80px;
+	margin-bottom: 20px
+}
+.testemonials p
+{
+	text-align:center;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 20px;
+	color: #3b3b3b;
+	font-family: monospace;
+	margin-right: 80px;
+	margin-bottom: 20px
+}
+/* End Testemonials*/
+/* Start facilies*/
+.indone
+{
+	margin-top: 30px;
+	overflow: hidden
+}
+.indone .facilies
+{
+	float: left;
+	overflow: hidden;
+	width: 25%
+}
+.indone .facilies img
+{
+	width: 280px;
+	height: 250px;
+	margin: 7px;
+	border: 2px solid #460965;
+	box-shadow: 7px 7px 7px #717171
+}
+.indone .facilies h2
+{
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	color:#7f7d77;
+	font-size: 22px
+}
+.indone .facilies p
+{
+	text-align:justify;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: monospace;
+	color: #807d77;
+	padding: 7px;
+	padding-right: 10px
+}
+.indone .facilies button
+{
+	background-color: #55415f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 8px;
+	color:#fff;
+	font-weight: bold;
+	cursor:pointer;
+	margin-left: 20px;
+	margin-bottom: 30px
+}
+/* End facilies*/
+/* Start footer*/ 
+  .footer
+{
+	overflow: hidden;
+	background-color: #222
+}
+ .footer .form
+{
+	float: left;
+	overflow: hidden;
+	width:25%
+}
+.footer .form h2
+{
+	text-align: justify;
+	font-family: monospace;
+	font-weight: bold;
+	color:#fff;
+	font-size: 22px;
+	margin-top: 30px
+}
+
+.footer .form span
+{
+	color: #9f81a9;
+	font-family:monospace;
+	font-weight: bold;
+	font-size: 20px
+}
+.footer .form label
+{
+	color:#807d77;
+	line-height: 1.7;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 15px
+}
+.footer .form p
+{
+	line-height: 1.5;
+	font-family: monospace;
+	font-weight: bold;
+	color:#807d77;
+	text-align:justify;
+	font-size: 17px;
+	margin-top: 7px
+}
+.footer .form ul
+{
+	list-style: none;
+	margin-right: 50px
+}
+.footer .form ul li
+{
+	color: #9f81a9;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: monospace;
+	cursor: pointer
+}
+.footer .form ul li a:hover
+{
+	color:#56f5d1;
+	cursor: pointer
+}
+.footer .form strong
+{
+	color:#807d77;
+	line-height: 1.5;
+	cursor: pointer
+}
+.footer .form input[type="text"]
+{
+	background-color: #353535;
+	color:#807d77;
+	border:1px solid #353535 ;
+	border-radius: 10px;
+	padding: 10px 20px;
+    margin-top: 10px;
+	width: 300px
+}
+.footer .form input[type="email"]
+{
+	background-color: #353535;
+	color:#807d77;
+	border:1px solid #353535 ;
+	border-radius: 10px;
+	padding: 10px 20px;
+    margin-top: 10px;
+	width: 300px
+}
+.footer .form input[type="submit"]
+{
+	background-color: #9f81a9;
+	color:#fff;
+	border:1px solid #353535 ;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer
+}
+.footer .form .list ul
+{
+	margin-right: 10px
+}
+.footer .form .list ul li
+{
+	display: inline;
+	padding: 2px
+}
+.footer .form hr
+{
+	color:#fff
+}
+/* End footer*/ 
+/* Start Domain*/
+.domain
+{
+	overflow: hidden;
+	background-color: #222
+}
+.domain hr
+{
+	
+	background-color:#3a3a3a;
+	height: 2px;
+	border:1px solid #3a3a3a
+}
+.domain span 
+{
+	color:#807d77;
+	text-align:justify;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: Arial;
+	margin-right:70px;
+	margin-left: 70px;
+	margin-top: 20px;
+	float:left
+}
+.domain p
+{
+	color:#807d77;
+	text-align:justify;
+	line-height: 1.6;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: Arial;
+	margin-right: 70px;
+	margin-left: 70px;
+	float:right
+}
+/* End Domain*/
